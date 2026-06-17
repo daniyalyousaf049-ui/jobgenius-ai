@@ -2,23 +2,6 @@
   command = "npm run build"
   publish = "dist"
 
-[functions]
-  node_bundler = "esbuild"
-
-  [build]
-  command = "npm run build"
-  publish = "dist"
-
-[build.environment]
-  SECRETS_SCAN_OMIT_KEYS = "VITE_GROQ_API_KEY,VITE_ELEVENLABS_API_KEY,VITE_SUPABASE_URL,VITE_SUPABASE_ANON_KEY,VITE_SUPABASE_PUBLISHABLE_KEY,VITE_SUPABASE_PROJECT_ID,GROQ_API_KEY,SUPABASE_URL,SUPABASE_PUBLISHABLE_KEY,SUPABASE_PROJECT_ID"
-
-[functions]
-  node_bundler = "esbuild"
-
-  [build]
-  command = "npm run build"
-  publish = "dist"
-
 [build.environment]
   SECRETS_SCAN_OMIT_KEYS = "VITE_GROQ_API_KEY,VITE_ELEVENLABS_API_KEY,VITE_SUPABASE_URL,VITE_SUPABASE_ANON_KEY,VITE_SUPABASE_PUBLISHABLE_KEY,VITE_SUPABASE_PROJECT_ID"
 
